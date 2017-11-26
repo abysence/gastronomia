@@ -1,96 +1,60 @@
-
-body
-{
-	background-image:url("../img/fondo.png");
-	background-size: cover;
-}
+@charset "UTF-8";
+body {
+  background-image: url("../img/fondo.png");
+  background-size: cover; }
 
 /*Encabezado de la página*/
+.encabezado {
+  color: #4A2602; }
 
-.encabezado
-{
-	color: #4A2602;
-}
-
-.fa.fa-heart-o
-{
-	color: red;
-}
+.fa.fa-heart-o {
+  color: red; }
 
 /*Contenido de la página*/
+.large-uncollapse.contenido {
+  margin: auto; }
 
-.large-uncollapse.contenido
-{
-	margin: auto;
-}
+.container {
+  background-color: rgba(228, 202, 143, 0.6); }
 
-.container
-{
-	background-color: rgba(228, 202, 143,0.6);
-}
-
-.fondo-contenido
-{
-	background-color: #B99B55;
-}
+.fondo-contenido {
+  background-color: #B99B55; }
 
 /*Columna izquierda de la página*/
+a.expanded.button, a.button.float-right {
+  background-color: #996633; }
 
-a.expanded.button, a.button.float-right
-{
-	background-color: #996633;
-}
+a.expanded.button.active {
+  background-color: #4A2602; }
 
-a.expanded.button.active
-{
-	background-color: #4A2602;
-}
+a.expanded.button:hover, a.button.float-right:hover {
+  background-color: #4A2602; }
 
-a.expanded.button:hover, a.button.float-right:hover
-{
-	background-color: #4A2602;
-}
+a.expanded.button:active, a.button.float-right:active {
+  background-color: #E4B98F; }
 
-a.expanded.button:active, a.button.float-right:active
-{
-	background-color: #E4B98F;
-}
-
-.thumbnail
-{
-	border-color: #E4B98F;
-}
+.thumbnail {
+  border-color: #E4B98F; }
 
 ul.list-group {
   overflow: hidden;
-  margin:0;
-}
+  margin: 0; }
 
-ul.list-group a
-{
-	color: #4A2602;
-}
+ul.list-group a {
+  color: #4A2602; }
 
 .list-group-item {
-  border-bottom: 1px solid #E4B98F;
-}
+  border-bottom: 1px solid #E4B98F; }
 
 .list-group-item:hover, .list-group-item:focus {
-  background-color: #E4B98F;
-}
+  background-color: #E4B98F; }
 
 .list-group-item:hover.active, .list-group-item:focus.active {
-  background-color: #1779ba;
-}
+  background-color: #1779ba; }
 
 /*Posts del blog*/
+.titulo {
+  color: #996633; }
 
-.titulo
-{
-	color: #996633;
-}
-
-.fecha
-{
-	color: #E4B98F;
-}
+.fecha {
+  color: #E4B98F; }
